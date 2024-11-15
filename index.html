@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Rock Paper Scissors!</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <h1>Rock Paper Scissors</h1>
+</head>
+
+<div id="scoreboard">
+    <p id="playerScore">Player Score: 0</p>
+</div>
+
+<div class="main" id="main">
+    <section>
+        <img src="./assets/rock.png" class="item" id="rock" alt="Rock">
+        <img src="./assets/paper.jpg" class="item" id="paper" alt="Paper">
+        <img src="./assets/sci.jpg" class="item" id="scissors" alt="Scissors">
+        <div id="playerChoice">
+            <p>Choose!</p>
+        </div>
+        <p><button id="play">Play!</button></p>
+        <div id="output"></div>    
+        <div id="result"></div>
+        <script src="RPC.js"></script>
+        <p><button onclick="window.location.reload();">Reset</button></p>
+    </section>
+</div>
